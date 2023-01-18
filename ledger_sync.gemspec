@@ -60,7 +60,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency('nokogiri', '>= 0')
   spec.add_runtime_dependency('openssl', '~> 2.2.0')
   spec.add_runtime_dependency('pd_ruby', '>= 0')
-  spec.add_runtime_dependency('rack', '~> 2.2.3')
+  spec.add_runtime_dependency('rack', '>= 2.2.3', '< 3.1.0')
   spec.add_runtime_dependency('resonad', '>= 0')
   spec.add_runtime_dependency('simply_serializable', '>= 1.5.1')
 end

@@ -13,7 +13,7 @@ PATH
       nokogiri
       openssl (~> 2.2.0)
       pd_ruby
-      rack (~> 2.2.3)
+      rack (>= 2.2.3, < 3.1.0)
       resonad
       simply_serializable (>= 1.5.1)
 
@@ -168,7 +168,7 @@ GEM
       colorize
     public_suffix (4.0.6)
     racc (1.5.2)
-    rack (2.2.3)
+    rack (3.0.4.1)
     rainbow (3.0.0)
     rake (13.0.3)
     rb-fsevent (0.10.4)
